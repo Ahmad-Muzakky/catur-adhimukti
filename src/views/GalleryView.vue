@@ -1,20 +1,20 @@
 <template>
-  <div class="ClassView">
+  <div class="GalleryView">
     <NavBar />
-    <AboutContent id="container"/>
-    <Footer />
+    <GalleryClass id="container"/>
+        <Footer />
   </div>
 </template>
 
 <script>
-import AboutContent from '@/components/AboutUs/AboutContent.vue';
+import GalleryClass from '@/components/Gallery/HomeGallery.vue';
 import NavBar from '@/views/Navbar.vue';
 import Footer from '@/views/FooterView.vue';
 
 export default {
-  name:'ClassView',
+  name:'GalleryView',
   components:{
-    AboutContent,
+    GalleryClass,
         NavBar,
     Footer,
   }
